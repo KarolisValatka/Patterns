@@ -20,14 +20,13 @@ public class Fighter extends Style {
             long wrestling,
             long striking
     ) {
+        super(striking, wrestling, bjj);
         this.height = height;
         this. weight = weight;
         this.age = age;
         this.country = country;
         this.fullName = fullName;
-        setBjj(bjj);
-        setStriking(striking);
-        setWrestling(wrestling);
+
     }
 
     public long getHeight() {
@@ -68,5 +67,16 @@ public class Fighter extends Style {
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nFighter{" +
+                "height=" + height +
+                ", weight=" + weight +
+                ", country='" + country + '\'' +
+                ", age=" + age +
+                ", fullName='" + fullName + '\'' +
+                '}';
     }
 }

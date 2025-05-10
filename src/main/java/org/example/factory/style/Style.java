@@ -5,6 +5,12 @@ public abstract class Style {
     private long wrestling;
     private long bjj;
 
+    public Style(long striking, long wrestling, long bjj) {
+        this.bjj = bjj;
+        this.striking = striking;
+        this.wrestling = wrestling;
+    }
+
     public long getStriking() {
         return striking;
     }
@@ -27,5 +33,14 @@ public abstract class Style {
 
     public void setBjj(long bjj) {
         this.bjj = bjj;
+    }
+
+    @Override
+    public String toString() {
+        return "Style{" +
+                "striking=" + striking +
+                ", wrestling=" + wrestling +
+                ", bjj=" + bjj +
+                '}';
     }
 }
