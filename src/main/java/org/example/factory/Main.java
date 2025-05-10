@@ -1,6 +1,6 @@
 package org.example.factory;
 
-import org.example.factory.FighterFactory.FighterFactory;
+import org.example.factory.fighterFactory.FighterFactory;
 import org.example.factory.fighter.Fighter;
 
 public class Main {

@@ -1,4 +1,4 @@
-package org.example.factory.FighterFactory;
+package org.example.factory.fighterFactory;
 
 import org.example.factory.fighter.Fighter;
 
