@@ -1,2 +1,3 @@
 # Basic patterns that all devs should know
-## Fatory(More like simple factory)
+## Factory(More like simple factory)
+## Builder pattern
